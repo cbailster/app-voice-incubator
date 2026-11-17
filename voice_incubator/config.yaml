@@ -1,9 +1,9 @@
 ---
-version: 0.3.2
+version: 0.3.3
 slug: voice_incubator
 name: Voice Incubator
 description: Voice satellites with your own commands, recognized on this machine
-url: https://github.com/OHF-Voice/app-voice-incubator
+url: https://github.com/cbailster/app-voice-incubator
 arch:
   - amd64
   - aarch64
@@ -49,4 +49,4 @@ schema:
 homeassistant: 2025.10.0
 # What the app store pulls once it is published. A local app built from
 # this folder must not say it: Home Assistant would pull it instead.
-image: ghcr.io/ohf-voice/app-voice-incubator
+image: ghcr.io/cbailster/app-voice-incubator
