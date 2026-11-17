@@ -6,4 +6,4 @@
 # Home Assistant through the Supervisor with SUPERVISOR_TOKEN.
 # ==============================================================================
 cd /usr/src/voice_incubator || bashio::exit.nok "The app's code is missing from /usr/src/voice_incubator"
-exec python3 -m voice_incubator --data-dir /data --http-port 8099
+exec python3 -m voice_incubator --data-dir /data --http-port 8199
