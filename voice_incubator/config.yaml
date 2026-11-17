@@ -22,7 +22,7 @@ map:
 backup_exclude:
   - "*/uv-cache"
   - "*/models/wake-training"
-ingress_port: 8099
+ingress_port: 8199
 panel_icon: mdi:account-voice
 panel_title: Voice Incubator
 # Home Assistant's pipelines: the app's speech-to-text, text-to-speech and
